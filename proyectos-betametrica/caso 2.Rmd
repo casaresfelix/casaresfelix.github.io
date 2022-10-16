@@ -12,7 +12,7 @@ output: html_document
 
 bal19 <- openxlsx::read.xlsx("H:\\BETAMETRICA\\CURSOS\\VIRTUALES\\MANEJO DE BASES DE DATOS\\material\\RANKING_2019.xlsx",
                              cols =c(5:22))
-
+head(bal19)
 
 
 
